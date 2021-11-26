@@ -12,18 +12,8 @@ setup(
                  "License :: OSI Approved :: BSD License",
                  "Topic :: Software Development :: Libraries :: Python Modules",
                  "Environment :: Web Environment"],
-    description="""\
-The oaipmh module is a Python implementation of an "Open Archives
-Initiative Protocol for Metadata Harvesting" (version 2) client and server.
-The protocol is described here:
-
-http://www.openarchives.org/OAI/openarchivesprotocol.html
-""",
-    long_description=(
-        open(join(dirname(__file__), 'README.rst')).read(),
-        ' ',
-        open(join(dirname(__file__), 'HISTORY.txt')).read()
-    ),
+    description=None,
+    long_description=None,
     packages=find_packages('src'),
     package_dir = {'': 'src'},
     zip_safe=False,
